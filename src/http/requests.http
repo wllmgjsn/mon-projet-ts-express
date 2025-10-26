@@ -3,3 +3,16 @@
 #
 GET  {{baseUrl}}/books
 ###
+
+#
+GET {{baseUrl}}/export/books 
+###
+
+#
+GET {{baseUrl}}/export/users
+###
+
+#
+GET {{baseUrl}}/export/rentals 
+###
+
