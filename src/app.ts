@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (_req, res) => {
-  res.send('Hello TypeScript + Express!');
+  res.send('Welcome to William\'s branch');
 });
 
 app.use('/books', booksController);
