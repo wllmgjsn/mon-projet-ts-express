@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path';
-import Book from '../models/book.model';
+import { Book } from '../models/book.model';
 import { isBook } from '../utils/guards';
 
 class BookService {
