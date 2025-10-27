@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { ExporterService } from "../services/exporter.service";
 import { Request, Response } from "express";
-import Book from "../models/book.model";
+import { Book } from "../models/book.model";
 import User from "../models/user.model";
 import BookRental from "../models/bookRental.model";
 
